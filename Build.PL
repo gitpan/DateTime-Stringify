@@ -6,7 +6,7 @@ my $build = Module::Build->new(
   license     => 'perl',
   module_name => 'DateTime::Stringify',
   requires    => {
-    'DateTime'    => 0,
+    'DateTime'    => '0.21',
     'Test::More'  => 0,
   },
 );
