@@ -1,0 +1,18 @@
+--- #YAML:1.0
+name: DateTime-Stringify
+version: 4.08
+author:
+  - Leon Brocard <acme@astray.com>
+abstract: DateTime objects
+license: perl
+requires:
+  DateTime: 0
+  Test::More: 0
+provides:
+  DateTime:
+    file: lib/DateTime/Stringify.pm
+    version: 4.08
+  DateTime::Stringify:
+    file: lib/DateTime/Stringify.pm
+    version: 4.08
+generated_by: Module::Build version 0.23
