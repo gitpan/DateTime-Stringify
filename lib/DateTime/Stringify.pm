@@ -1,8 +1,9 @@
 package DateTime::Stringify;
 use strict;
+use warnings;
 use DateTime;
 use vars qw($VERSION);
-$VERSION = '4.10';
+$VERSION = '4.11';
 
 1;
 
@@ -38,6 +39,8 @@ Leon Brocard <acme@astray.com>
 =head1 COPYRIGHT
 
 Copyright (C) 2004, Leon Brocard
+
+=head1 LICENSE
 
 This module is free software; you can redistribute it or modify it under
 the same terms as Perl itself.
